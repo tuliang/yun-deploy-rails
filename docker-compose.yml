@@ -4,4 +4,4 @@ web:
     - RAILS_ENV=production
     - SECRET_KEY_BASE=dec4713e9cc6f579b71f2b0b4314148938459417189db15b195d23dc00acb166d6f18f7cfb61869255d9932332cdbe74dc30e972edc4addb96ffde0642b83244
   ports:
-   - "3000:3000"
+   - "80:3000"

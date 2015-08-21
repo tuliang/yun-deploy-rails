@@ -9,5 +9,5 @@ RUN bundle install
 
 ADD . /app
 
-EXPOSE 3000
+EXPOSE 80
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
